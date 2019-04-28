@@ -1,0 +1,11 @@
+﻿@page
+@using TagHelperCore.Models;
+@model List<CustomSelect>
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="container">
+    <h4>Custom Select/Option TagHelper implementation</h4>
+    <select-option options="Model"></select-option>
+</div>  
